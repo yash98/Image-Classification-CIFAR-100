@@ -7,5 +7,9 @@ https://paperswithcode.com/sota/image-classification-on-cifar-100
 Res2Net: A New Multi-scale Backbone Architecture:
 https://paperswithcode.com/paper/res2net-a-new-multi-scale-backbone
 
+ResNeXt:
+https://arxiv.org/abs/1611.05431
+https://github.com/taki0112/ResNeXt-Tensorflow/blob/master/ResNeXt.py
+
 Attention Augmented Convolutional Networks
 https://paperswithcode.com/paper/190409925

@@ -25,7 +25,7 @@ from torch.optim import lr_scheduler
 from torchvision import transforms
 
 # parameters for the network
-epochs = 10
+epochs = 35
 batch_size = 64
 workers = 2
 num_classes = 100
@@ -264,7 +264,7 @@ net = torch.nn.DataParallel(net)
 
 optimizer = torch.optim.Adadelta(net.parameters(), lr=0.1, rho=0.9, eps=1e-3, weight_decay=0.001)
 
-milestones = [100, 190, 306, 390, 440, 540]
+milestones = [10, 20, 30, 35, 40, 45]
 scheduler = lr_scheduler.MultiStepLR(optimizer, milestones, gamma=0.1)
 
 net.cuda()
